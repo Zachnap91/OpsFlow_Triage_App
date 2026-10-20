@@ -36,7 +36,7 @@ Prerequisites: Python 3.12, Node.js 22 or newer, and npm.
 
 ## Manual setup
 
-Run the backend and frontend in two separate Terminal windows or tabs. All commands start from the `Ops_Triage_Mac` folder.
+Run the backend and frontend in two separate Terminal windows or tabs. All commands start from the `OpsFlow_Beta` folder.
 
 ### Backend
 
@@ -62,7 +62,7 @@ The interface will be available at <http://localhost:5173>.
 
 ### Optional demo data
 
-From the `Ops_Triage_Mac` folder, run:
+From the `OpsFlow_Beta` folder, run:
 
 ```bash
 cd backend
@@ -99,7 +99,7 @@ Never commit an API key. The `.gitignore` excludes `.env` files.
 
 ## Tests
 
-From the `Ops_Triage_Mac` folder, run:
+From the `OpsFlow_Beta` folder, run:
 
 ```bash
 cd backend
