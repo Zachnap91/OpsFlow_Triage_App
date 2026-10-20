@@ -2,9 +2,9 @@
 __pycache__/
 .pytest_cache/
 *.pyc
-Ops_Triage_Mac/backend/operations.db
-Ops_Triage_Mac/frontend/node_modules/
-Ops_Triage_Mac/frontend/dist/
+OpsFlow_Beta/backend/operations.db
+OpsFlow_Beta/frontend/node_modules/
+OpsFlow_Beta/frontend/dist/
 .env
 .DS_Store
 
