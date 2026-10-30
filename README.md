@@ -117,16 +117,11 @@ The integration test creates a request, validates automated triage, records huma
 - **Simple authentication boundary:** authentication is intentionally excluded from version 1. A production version would add single sign-on and server-enforced roles.
 - **Audit history:** meaningful changes are recorded so users can see who changed what and when.
 
-## Responsible use of agentic coding
+## Additions before deployment...
 
-This project was developed with an agentic coding assistant. The problem definition, workflow, acceptance criteria, architecture review, testing, and documentation remain human responsibilities. Every important code path should be reviewed and explainable by the repository owner before it is presented in an interview.
-
-## Suggested next improvements
-
-- Add OpenID Connect login and role-based authorization
-- Replace SQLite with PostgreSQL and database migrations
+- Add role-based authorization
+- Replace SQLite with Client-Server Database
 - Deploy the frontend and API to AWS
-- Add structured logging, metrics, and alerting
 - Add browser-based end-to-end tests
-- Connect an enterprise source such as an ERP, HRIS, or quality system
-- Add service-level targets and overdue-request notifications
+- Connect an ERP system
+- Add service-level target metrics
